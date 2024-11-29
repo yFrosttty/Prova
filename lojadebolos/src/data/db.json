@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Doce Mel",
+      "email": "docemel@sodoce.com.br",
+      "senha": "brigadeiro123"
+    },
+    {
+      "id": "7a32",
+      "nome": "Thales",
+      "email": "thales@gmail.com",
+      "senha": "1234"
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "Bolo de Cenoura",
+      "descricao": "Um bolo de cenoura",
+      "categoria": "Bolos",
+      "preco": "15",
+      "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSEcS8W9VZotyV3tfTToYdj1FoFInaeAOE7Q&s",
+      "id": "10ad"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Bebidas"
+    },
+    {
+      "id": "2",
+      "nome": "Bolos"
+    },
+    {
+      "id": "3",
+      "nome": "Tortas"
+    }
+  ]
+}

@@ -8,6 +8,8 @@ import Row from "react-bootstrap/Row";
 import Alert from "react-bootstrap/Alert";
 import Image from "react-bootstrap/Image";
 
+import NavBarra from "../components/NavBarra";
+
 // Importação de componentes
 
 
@@ -96,12 +98,13 @@ const CadastroUsuario = () => {
 
   return (
     <div>
-      
-      <Container>
+      < NavBarra />
+      <Container style={{ height: "100vh" }}
+      className="justify-content-center align-content-center">
         <h1>Cadastrar Usuario</h1>
         <form className="mt-3" onSubmit={handleSubmit}>
           <Row>
-            <Col xs={6}>
+            <Col xs={6} style={{ width: "75%", margin: "auto" }}>
               {/* Caixinha de nome */}
               <FloatingLabel
                 controlId="floatingInputNome"

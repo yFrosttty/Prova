@@ -11,6 +11,7 @@ const CardProduto = (props) => {
     const res = await req.json()
     console.log(res)
     alert(`Produto ${res.nome} removido`)
+    
   };
 
   return (
